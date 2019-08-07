@@ -1,0 +1,65 @@
+html,
+header,
+body {
+  padding: 1;
+  margin: 0;
+  background: rgb(209, 218, 216);
+}
+/*--- navigation bar ---*/
+
+.navbar {
+  background:#eff1f1;
+}
+.nav-link{
+  color:#090c0b;
+  cursor: pointer;
+  background-color: rgb(234, 240, 240);
+}
+.navbar-brand {
+  font-size: x-large;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+  background-color: rgb(44, 167, 172);
+}
+.nav-item{
+  color:#090c0b;
+  cursor: pointer;
+  background-color: rgb(234, 240, 240);
+}
+
+.img {
+  padding: 10;
+  display: inline-block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  border: gray;
+}
+
+.mr-auto {
+    margin-right: right !important;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: right;
+}
+
+.h2 {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(14, 131, 131)
+}
+.card-title {
+  color: rgb(75, 185, 185)!important;
+  font-weight: bold;
+}
+.card-text{
+color: grey;
+display: inline;
+}
